@@ -25,7 +25,7 @@ fttm = {
 }
 
 n_test_cases = int(input())
-for n_test_case in range(1, n_test_cases + 1):
+for _ in range(1, n_test_cases + 1):
     number, phone_number_format = input().split(" ")
     number = list(number)
     phone_number_format = list(map(int, phone_number_format.split("-")))
